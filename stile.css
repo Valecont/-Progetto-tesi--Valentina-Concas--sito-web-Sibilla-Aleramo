@@ -106,7 +106,7 @@ footer {
   padding: 20px;
   background-color: hsl(19, 13%, 76%);
   margin: 5px auto;
-  width: 100%;
+  width: 90%;
 }
 
 /*Home*/
@@ -503,6 +503,7 @@ nav{
     padding: 15px 30px;
     font-size: 14px;
   }
+  footer{width:80%;margin:auto;}
 }
 
 

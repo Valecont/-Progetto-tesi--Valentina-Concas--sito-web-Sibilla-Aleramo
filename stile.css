@@ -316,11 +316,11 @@ footer {
 /*Femminismo*/
 .contenuto {
   display: flex;
-  justify-content: center; /* centra i figli orizzontalmente */
+  justify-content: center; 
   flex-wrap: wrap;
   gap: 40px;
   width: 100%;
-  margin: 0 auto; /* centra il contenitore stesso */
+  margin: 0 auto; 
   
 }
 .titolo {
@@ -528,7 +528,7 @@ nav{
   }
   .lineatempo{background-color: blue;}
    .lineatempo-contenitore {
-    width: 100%; /* stesso della sessione */
+    width: 100%; 
     column-gap: 140px;
    background-color: orange;
     margin-left:auto ;
@@ -546,7 +546,7 @@ nav{
 
 @media (min-width: 1600px) {
 
-  /* Font più grandi */
+ 
   body {
     width: 100%;
   }
@@ -563,7 +563,7 @@ nav{
         margin: auto;
       }
       header{height: 450px;}
-  /* Contenitori principali più grandi e centrati */
+  
   .sessione, .sessione-due {
     width: 80%;
     padding: 50px 80px;
@@ -603,7 +603,7 @@ nav{
   #video h4{
   margin-top: 0px;margin-bottom: 25px;
 }
-  /* Immagini più grandi */
+  
    .sessione .foto, .sessione-due .foto {
     max-width: 600px;
   }
@@ -617,11 +617,10 @@ nav{
 }
 
   
-  /* Contenitore delle date più grande e separato */
   #date {
      width: 80%;
     padding: 50px 80px;
-    margin-bottom: 150px; /* più spazio dal contenitore sotto */
+    margin-bottom: 150px; 
     margin-left:auto ;
     margin-right: auto;
   }
@@ -630,7 +629,7 @@ nav{
     column-count: 4;
     column-gap: 90px;
     padding: 40px 60px;
-    max-height: none; /* niente limite altezza */
+    max-height: none; 
   }
   .contenitore-bottoni button{
     padding: 38px 50px;

@@ -4,11 +4,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   margin: auto;
-  padding: 5px;
+ 
   background-color: #f8f6f3;
   color:#2d2520;
   text-align: justify;
-  width: 90%;
+  width: 100%;
 }
 
 body h1,h2,h3,h4,h5{
@@ -103,10 +103,10 @@ button:hover {
 
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   background-color: hsl(19, 13%, 76%);
   margin: 5px auto;
-  width: 90%;
+  width: 100%;
 }
 
 /*Home*/
@@ -442,11 +442,139 @@ footer {
   .video-femminismo {
     max-width: 90%;
   }
-<<<<<<< HEAD
+
+  body {
+    width: 100%;
+  }
+
+  p { font-size: 14px; }
+  h1 { font-size: 50px; }
+  h2 { font-size: 30px; }
+  h2::first-letter { font-size: 40px; }
+  h3 { font-size: 26px; }
+  h4 { font-size: 17px; }
+  h5 { font-size: 15px; }
+
+  header {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .header {
+    height: 50%;
+    width: auto;
+    margin-top: -30px;
+  }
+
+  nav {
+    width: 100%;
+    padding: 15px 10px;
+  }
+
+  nav a {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+
+  .sessione,
+  .sessione-due {
+    width: 95%;
+    padding: 30px 20px;
+    min-height: auto;
+  }
+
+  .opinioni {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contenitore-esterno::after,
+  .contenitore-esterno::before {
+    display: none;
+  }
+
+  .sessione .contenitore-esterno,
+  .sessione-due .contenitore-esterno {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sessione:nth-child(odd) .contenitore-esterno,
+  .sessione-due:nth-child(odd) .contenitore-esterno {
+    flex-direction: column-reverse;
+  }
+
+  .div-interno,
+  .div-interno-l {
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .sessione .foto,
+  .sessione-due .foto {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .decorazione {
+    margin: 20px auto;
+  }
+
+  .titolo {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .box-testo {
+    max-height: 400px;
+  }
+
+  button {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+
+  .lineatempo-contenitore {
+    width: 100%;
+    column-gap: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #date {
+    width: 95%;
+    padding: 30px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    width: 100%;
+    padding: 20px 10px ;
+    margin: auto;
+  }
+}
+@media (max-width: 968px) {
+
+  .video-femminismo {
+    max-width: 90%;
+  }
+
   
-=======
+
   body{width: 100%;}
->>>>>>> c4add02b68be18a6a330476005fc283253468995
+
 p{font-size: 14px;}
  h1{ font-size: 50px;}
 h2 { font-size: 30px;}
@@ -457,23 +585,23 @@ h3 { font-size: 26px; }
 h4{font-size: 17px;}
 h5{ font-size: 15px;}
 
-<<<<<<< HEAD
+
 header{width: 98%;
           padding: 13px;
-=======
+
 header{width: 100%;
           padding: 10px;
->>>>>>> c4add02b68be18a6a330476005fc283253468995
+
         margin: auto;}
   
 .header{
   
   height: 50%;
-<<<<<<< HEAD
+
   width: 94%;
-=======
+
   width: auto;
->>>>>>> c4add02b68be18a6a330476005fc283253468995
+
   margin-top: -30px;
 }
 
@@ -539,12 +667,12 @@ nav{
     padding: 15px 30px;
     font-size: 14px;
   }
-<<<<<<< HEAD
-  .lineatempo{background-color: blue;}
+
+  
    .lineatempo-contenitore {
     width: 100%; 
     column-gap: 140px;
-   background-color: orange;
+  
     margin-left:auto ;
     margin-right: auto;
   }
@@ -553,9 +681,10 @@ nav{
     padding: 30px 20px;
     margin-left:auto ;
     margin-right: auto;
-    background-color: aqua;
+   
   }
   footer{width:94%;margin:auto;}
+}
 }
 
 @media (min-width: 1600px) {
@@ -654,9 +783,8 @@ width: 100%;
 }
 
 
-=======
-  footer{width:auto;margin:auto;}
-}
 
->>>>>>> c4add02b68be18a6a330476005fc283253468995
+
+
+
 

@@ -239,6 +239,9 @@ footer {
   background-color: #fff;
   transition: box-shadow 0.3s ease;
 }
+.pagina .sessione-due:nth-child(odd) h2::first-letter{
+  color: #A8B79A;
+}
 
 .sessione-due:hover{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.507);
@@ -417,7 +420,9 @@ footer {
   max-width: 1000px;
   margin: 60px auto;
 }
-
+.opinioni .sessione-due > h2::first-letter{
+  color: #A8B79A;
+}
 .introduzione {
   color: #6E4B3A;
   font-style: italic;
